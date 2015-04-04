@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            'Lehigh Beamer'
-tagline:          'Beamer Themes for LaTeX Presentations'
-description:      'Beamer themes for presentations using Lehigh's colors'
+title:            Lehigh Beamer Themes
+tagline:          
+description:      'Beamer themes for presentations using Lehigh&#39;s colors'
 url:              http://www.alexpacheco.us/LehighBeamer
 baseurl:          /
 
