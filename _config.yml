@@ -7,11 +7,11 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            ''
+title:            'Lehigh Beamer'
 tagline:          'Beamer Themes for LaTeX Presentations'
-description:      ''
-url:              http://www.alexpacheco.us/LehighBeamer/
-baseurl:          
+description:      'Beamer themes for presentations using Lehigh's colors'
+url:              http://www.alexpacheco.us/LehighBeamer
+baseurl:          /
 
 author:
   name:           'Alex Pacheco'
@@ -20,7 +20,8 @@ author:
 paginate:         
 
 # Custom vars
-#version:          1.2
+version:          
 
 github:
   repo:           https://github.com/alexpacheco/LehighBeamer
+  home:           htps://github.com/alexpacheci
