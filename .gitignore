@@ -1,3 +1,6 @@
+### for gh-pages
+_site
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
