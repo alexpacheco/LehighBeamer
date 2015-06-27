@@ -10,8 +10,8 @@ relative_permalinks: true
 title:            Lehigh
 tagline:          Beamer Themes
 description:      'Beamer themes using Lehigh&#39;s colors'
-url:              http://www.alexpacheco.us/LehighBeamer/
-baseurl:          
+url:              http://www.alexpacheco.us/
+baseurl:          LehighBeamer/
 
 author:
   name:           'Alex Pacheco'
