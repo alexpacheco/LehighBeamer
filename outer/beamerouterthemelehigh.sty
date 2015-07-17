@@ -32,6 +32,9 @@
   \end{tikzpicture}%
 }
 
+\def\tllogo{\setbeamertemplate{tllogo}}
+\def\inserttllogo{\usebeamertemplate*{tllogo}}
+
 % page number
 \defbeamertemplate*{footline}{my footline}
 {
@@ -46,11 +49,11 @@
       \leavevmode%
       \hbox{%
       \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.0ex,dp=1ex,left]{date in head/foot}%
-        \usebeamerfont{date in head/foot}\raisebox{-0.85ex}{\includegraphics[width=0.3\paperwidth]{lulogo}}\hfill
+        \usebeamerfont{date in head/foot}\raisebox{-0.85ex}\inserttllogo\hfill
       \end{beamercolorbox}%
-      \begin{beamercolorbox}[wd=.61\paperwidth,ht=2.8ex,dp=0ex,center]{white}\raisebox{-1.1ex}{\progressbar@progressbar}%{date in head/foot}%
+      \begin{beamercolorbox}[wd=.605\paperwidth,ht=2.8ex,dp=0ex,center]{white}\raisebox{-1.1ex}{\progressbar@progressbar}%{date in head/foot}%
       \end{beamercolorbox}
-      \begin{beamercolorbox}[wd=.09\paperwidth,ht=2.75ex,dp=1ex,right]{date in head/foot}%
+      \begin{beamercolorbox}[wd=.09\paperwidth,ht=2.85ex,dp=1ex,right]{date in head/foot}%
         \usebeamerfont{date in head/foot} \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
       \end{beamercolorbox}
       }%
