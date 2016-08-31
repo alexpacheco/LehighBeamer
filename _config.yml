@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -10,12 +10,12 @@ relative_permalinks: true
 title:            Lehigh
 tagline:          Beamer Themes
 description:      'Beamer themes using Lehigh&#39;s colors'
-url:              http://www.alexpacheco.us/
+url:              http://www.alexpacheco.net/
 baseurl:          LehighBeamer/
 
 author:
   name:           'Alex Pacheco'
-  url:            http://www.alexpacheco.us
+  url:            http://www.alexpacheco.net
 
 #paginate:         
 
